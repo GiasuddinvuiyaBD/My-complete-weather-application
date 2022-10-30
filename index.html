@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<title>JavaScript Weather Application</title>
+</head>
+<body>
+	<div class="container">
+		<div id="heading">
+			<h2 id="unique">Weather Appliation</h2>
+			</div>
+			<form action="#">
+			   <input type="text" id="countryName" placeholder="Enter Country Name : " autocomplete="off">
+			   <div id="cuntryError"></div>
+				<input type="text" id="cityName" placeholder="Enter City Name : " autocomplete="off">
+				<div id="cityError"></div>
+				<input type="submit" id="butnElm" value="Submit">
+			</form>
+			<div class="showItemToUI">
+				<p id="countryName">Country Name : <span class="county"></span></p>
+				<hr>
+				<p id="cityName">City Name : <span class="city"></span></p>
+				<p id="tem">Temparature <span class="tem"></span>&deg;C</p>
+				<p id="feelLike">Feel like <span id="feel"></span></p>
+				<img id="defaultWeatherImg" class="icon">
+				<p id="paser">Pressure <span class="pachar"></span></p>
+				<p id="huminitys">Humidity <span class="huminity"></span></p>
+			</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
